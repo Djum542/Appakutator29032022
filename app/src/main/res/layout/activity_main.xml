@@ -29,23 +29,23 @@
 <!--        android:layout_alignParentEnd="true"-->
 <!--        android:textSize="35sp"-->
 <!--        android:textStyle="italic"/>-->
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View3"
-        android:layout_centerInParent="true"
-        android:textSize="35sp"
-        android:textStyle="italic"/>
-    <TextView
-android:layout_above="@id/textView1"
-        android:layout_toStartOf="@id/textView1"
-        android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="View2"
-    android:layout_centerInParent="true"
-    android:textSize="35sp"
-    android:textStyle="italic"/>
+<!--    <TextView-->
+<!--        android:id="@+id/textView1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="View3"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:textSize="35sp"-->
+<!--        android:textStyle="italic"/>-->
+<!--    <TextView-->
+<!--android:layout_above="@id/textView1"-->
+<!--        android:layout_toStartOf="@id/textView1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="View2"-->
+<!--    android:layout_centerInParent="true"-->
+<!--    android:textSize="35sp"-->
+<!--    android:textStyle="italic"/>-->
 <!--    <TextView-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->
@@ -69,4 +69,35 @@ android:layout_above="@id/textView1"
 <!--        -->
 <!--        android:textSize="35sp"-->
 <!--        android:textStyle="italic"/>-->
+    <TextView
+        android:id="@+id/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Red"
+        android:background="#F44336"/>
+    <TextView
+        android:id="@+id/Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:background="#4CAF50"
+
+        android:layout_centerInParent="true"
+        android:layout_above="@id/Green"/>
+   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Green"
+    android:layout_align="@+id/Red"
+    android:layout_centerInParent="true"
+    android:layout_above="@id/Red"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:layout_centerInParent="true"/>
+
+
+
 </RelativeLayout>
