@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="locale"
+    tools:context=".MainActivity">
+<TextView
+    android:id="@+id/number4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="  4   "
+    android:textSize="35sp"
+    android:background="#4A148C"
+    android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/Number3"
+        android:layout_above="@+id/number4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  3   "
+        android:background="#FB8C00"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_toStartOf="@id/number4"/>
+
+    <TextView
+        android:id="@+id/Number2"
+        android:layout_above="@id/Number3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_toStartOf="@id/Number3"
+android:background="#7CB342"
+        android:layout_below="@id/Number3"
+        android:text="  2   "
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/Number1"
+        android:layout_above="@id/Number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/Number2"
+        android:text="  1"
+        android:layout_below="@id/Number2"
+        android:background="#E53935"
+        android:textSize="35sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Number5"
+        android:text="  5   "
+        android:layout_toStartOf="@id/number4"
+        android:layout_below="@id/number4"
+android:layout_centerInParent="true"
+        android:background="#FF9E80"
+        android:textSize="35sp"/>
+    <TextView
+        android:id="@+id/Number6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  6   "
+        android:textSize="35sp"
+        android:background="#FB8C00"
+        android:layout_toStartOf="@+id/Number5"
+        android:layout_below="@id/Number5"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Number7"
+            android:text="  7   "
+            android:textSize="35sp"
+            android:background="#588"
+            android:layout_toStartOf="@+id/Number6"
+android:layout_below="@id/Number6"
+</RelativeLayout>
